@@ -1,0 +1,9 @@
+<launch>
+  
+<node
+	name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" required="true"
+/>
+  
+<node pkg="turtlecatch" type="turtlecatch" name="AIturtle"  output="screen"/>
+
+</launch>

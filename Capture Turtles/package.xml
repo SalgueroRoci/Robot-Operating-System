@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+	<name>turtlecatch</name>
+	<version>0.0.1</version>
+	<description>CPSC 481 Assignment 3</description>
+	<maintainer email="tnguyen29@csu.fullerton.edu">Thao Nguyen</maintainer>
+	<maintainer email="salgueroroci@csu.fullerton.edu">Rocio Salguero</maintainer>
+	<maintainer email="sharayu333@csu.fullerton.edu">Sharayu Shetty</maintainer>
+	<maintainer email="long261vn@csu.fullerton.edu">Long Nguyen</maintainer>
+	<maintainer email="sanikadesh198@csu.fullerton.edu">Sanika Deshpande</maintainer>
+	<license>BSD</license>
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>geometry_msgs</build_depend>
+	<run_depend>geometry_msgs</run_depend>
+	<build_depend>turtlesim</build_depend>
+	<run_depend>turtlesim</run_depend>
+	<build_depend>roscpp</build_depend>
+	<run_depend>roscpp</run_depend>
+
+</package>
